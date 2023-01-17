@@ -4,125 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/9cbebdcc6e.js" crossorigin="anonymous"></script>
+    <title>Resume</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
     <section>
-        <div class="name">
-            <h2>Peeyush Agarwal</h2>
-            <span>B.Tech Computer Science Student</span>
-        </div>
-       
-        <div class="contact">
-            <div class="num-email">
-                <span class="num">+91-7014354664 <i class="fa-solid fa-phone"></i></span><br>
-                <span>peeyush.agarwal26@gmail.com <i class="fa-solid fa-envelope"></i></span>
-            </div>
-            
-            <img src="./me.jpg" alt="Peeyush Agarwal" height="170px" width="170px">
-            
-            <div class="site-address">
-                <span class="website"><i class="fa-solid fa-globe"></i> Under Construction...</span><br>
-                <span><i class="fa-solid fa-location-dot"></i> Near Dungar College, Vyas Colony</span>
-            </div>
-
-        </div>
-
-        <div class="profile">
-            <hr>
-            <p class="profile-head">PROFILE</p>
-            <hr>
-            <p class="details">Hello, I am <b>Peeyush Agarwal</b>.<br> 
-                Currently pursuing my Engineering degree from <b>Government Engineering College Bikaner</b>.<br>
-                I am very passionate about <b>Coding</b> and <b>Graphic Designing</b>.
-            </p>
-        </div>
-
-        <div class="section">
-            <div class="left">
-                <div class="expertise">
-                    <hr>
-                    <p>EXPERTISE</p>
-                    <hr>
-                    <ul>
-                        <li>Creativity</li>
-                        <li>Responsibility</li>
-                        <li>Comunication</li>
-                        <li>Time Management</li>
-                        <li>Teamwork</li>
-                    </ul>
-                </div>
-                
-                <div class="education">
-                    <hr>
-                    <p>EDUCATION</p>
-                    <hr>
-                    <ul>
-                        <li>Secondary Education | 2019-2020</li>
-                        <p class="rsv">RSV Senior Secondary School</p>
-                        <li>Senior Secondary Education | 2021-2022</li>
-                        <p class="rsv">RSV Senior Secondary School</p>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="vl"></div>
-            
-            <div class="right">
+        <div class="left-section">
+            <img src="./image.jpg" alt="Image" width="350px">
+            <div class="education">
+                <h2>Education</h2>
                 <hr>
-                <p>SKILLS</p>
-                <hr>
-                <p class="programming"><u>PROGRAMMING LANGUAGES</u> -</p>
-                <div class="skills">
-                    <div class="skill">
-                        <div class="skill-name">HTML</div>
-                        <div class="skill-bar">
-                            <div class="skill-per" style="max-width: 90%;"></div>
-                        </div>
-                    </div>
-                    
-                    <div class="skill">
-                        <div class="skill-name">CSS</div>
-                        <div class="skill-bar">
-                            <div class="skill-per" style="max-width: 70%;"></div>
-                        </div>
-                    </div>
-                    
-                    <div class="skill">
-                        <div class="skill-name">JAVASCRIPT</div>
-                        <div class="skill-bar">
-                            <div class="skill-per" style="max-width: 60%;"></div>
-                        </div>
-                    </div>
-                </div>
-                
-                <p class="add-skill"><u>ADDITIONAL SKILLS</u> -</p>
-
-                <div class="skills">
-                    <div class="skill">
-                        <div class="skill-name">GRAPHIC DESIGNING</div>
-                        <div class="skill-bar">
-                            <div class="skill-per" style="max-width: 90%;"></div>
-                        </div>
-                    </div>
-                    
-                    <div class="skill">
-                        <div class="skill-name">MICROSOFT OFFICE TOOLS</div>
-                        <div class="skill-bar">
-                            <div class="skill-per" style="max-width: 70%;"></div>
-                        </div>
-                    </div>
+                <div class="edu-details">
+                    <h3>Secondary Education</h3>
+                    <p>RSV Senior Secondary School</p>
+                    <p class="year">2019-2020</p>
+                    <br>
+                    <h3>Senior Secondary Education</h3>
+                    <p>RSV Senior Secondary School</p>
+                    <p class="year">2021-2022</p>
                 </div>
             </div>
-        
+            <div class="contact">
+                <h2>Contact</h2>
+                <hr>
+                <div class="contact-details">
+                    <p><i class="fa-solid fa-phone"></i> +91-7014354664</p>
+                    <p><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDbtzRqrqMVsWvXSSQNnFvNdcfWqZLxvfNJWDjLVhMCBDTthVqwLzSslQNfNdfJXXCDCgCT" target="_blank"><i class="fa-solid fa-envelope"></i> Mail</a></p>
+                    <p><a href="https://peeyush-agarwal.me" target="_blank"><i class="fa-solid fa-globe"></i> Portfolio</a></p>
+                    <p><a href="https://github.com/PeeyushAgarwal26" target="_blank"><i class="fa-brands fa-github"></i> Github Profile</a></p>
+                    <p><a href="https://www.linkedin.com/in/peeyush-agarwal-59a515261/" target="_blank"><i class="fa-brands fa-linkedin"></i> Linkedin Profile</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-section">
+            <div class="name">
+                <p id="name"><span>Peeyush</span> Agarwal</p>
+                <p id="eng-stu">Engineering Student</p>
+            </div>
+            
+            <div class="about-me">
+                <h2>About Me</h2>
+                <hr>
+                <p> Hello, I am Peeyush Agarwal.
+                    Currently pursuing my Engineering degree from Government Engineering College Bikaner.
+                    I am very passionate about Coding and Graphic Designing.</p>
+            </div>
+            
+            <div class="lang-skills">
+                <h2>Languages</h2>
+                <hr>
+                <div class="skills">
+                    <div class="skill-name">HTML</div>
+                    <div class="skill-bar html">90%</div>
+
+                    <div class="skill-name">CSS</div>
+                    <div class="skill-bar css">82%</div>
+                    
+                    <div class="skill-name">JAVASCRIPT</div>
+                    <div class="skill-bar js">68%</div>
+                </div>
+            </div>
+            
+            <div class="soft-skills">
+                <h2>Software Skills</h2>
+                <hr>
+                <div class="skills">
+                    <div class="skill-name">Adobe Photoshop</div>
+                    <div class="skill-bar aps">75%</div>
+
+                    <div class="skill-name">Adobe Illustrator</div>
+                    <div class="skill-bar aill">55%</div>
+
+                    <div class="skill-name">Microsoft Excel</div>
+                    <div class="skill-bar excel">69%</div>
+                </div>
+            </div>
         </div>
     </section>
 </body>
-
 </html>
